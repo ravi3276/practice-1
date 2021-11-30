@@ -1,0 +1,21 @@
+.griddata{
+    height:100vh;
+}
+
+.row{
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.col{
+    background-color: #f3ecec;
+     padding: 10px;
+     margin: 5px;
+     text-align: center;
+     cursor: pointer;
+}
+
+.col:hover{
+    transform: scale(1.03);
+}
